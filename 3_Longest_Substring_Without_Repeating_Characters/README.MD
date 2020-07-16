@@ -12,7 +12,7 @@
 ## Difficulty
 **Medium**
 
-[Leetcode Link](https://leetcode.com/problems/add-two-numbers/)
+[Leetcode Link](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 
 ## Localizaiton
 [Simpfiled Chinese Version(TBD)](README.zh.MD)
@@ -22,7 +22,6 @@
 ## Problem Description
 Given a string, find the length of the **longest substring** without repeating characters.
 
-[leet code link](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 
 **Example 1:**
 ```
