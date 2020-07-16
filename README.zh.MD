@@ -40,7 +40,7 @@
 ## 提供帮助与建议
   欢迎提issue分享你的思路和见解
 
-  有问题请联系 chogenfran@icloud.com
+  有问题请联系 samukawa.t1@gmail.com
 
 ## 开源协议
 [Apache Licence 2.0](LICENSE)© SAMUKAWA_T1

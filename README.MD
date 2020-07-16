@@ -1,5 +1,5 @@
 # Leetcode Diary
-  Simply a project aims to privide good solution for leet code problems
+  Simply a project aims to provide good solution for leet code problems
 
   Not just the code, but also why I write it that way.
 
@@ -39,6 +39,8 @@
 
 ## Contributing
 Feel free to dive in! Open an issue or submit PRs.
+
+If you have any technical question, contact: samukawa.t1@gmail.com
 
 ## License
 [Apache Licence 2.0](LICENSE)© SAMUKAWA_T1
