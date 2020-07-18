@@ -14,7 +14,7 @@
 
 [Leetcode Link]()
 ## Localizaiton
-[Simpfiled Chinese Version(TBD)](README.zh.MD)
+[中文版本(TBD)](README.zh.MD)
 
 [Japanese Version(TBD)](README.jp.MD)
 
