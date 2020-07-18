@@ -1,20 +1,15 @@
 class Solution {
  public:
-  bool isPalindrome(int x) {
-    if(x < 0)
+  bool isPalindrome(int x){
+    if(x < 0 || (x % 10 == 0 && x != 0)) {
       return false;
-    int set[10];
-    int num_size = 0;
-    while(x > 0){
-      set[num_size++] = x % 10;
+    }
+
+    int rev_last = 0;
+    while(x > rev_last) {
+     rev_last = rev_last * 10 + x % 10;
       x /= 10;
     }
-    int begin = 0, end = num_size - 1;
-    while(begin < end){
-      if(set[begin++]!= set[end--])
-        return false;
-    }
-    
-    return true;
+    return x == rev_last || x == rev_last/10;
   }
 };
