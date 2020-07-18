@@ -6,20 +6,16 @@ using namespace std;
 class Solution {
  public:
   int reverse(int x) {
-    string buffer = to_string(x);
-    int i1 = x < 0? 1 : 0;
-    int i2 = buffer.size() - 1;
-    char c;
-    while(i2 > i1){
-      c = buffer[i1];
-      buffer[i1++] = buffer[i2];
-      buffer[i2--] = c;
+    bool is_pos = x > 0;
+    long buffer = 0;
+    if(is_pos)
+      x = -x;
+    while( x != 0){
+      buffer = buffer * 10 + x % 10;
+      if(buffer < INT_MIN)
+        return 0;
+      x /= 10;
     }
-    long res = stol(buffer);
-    if(res > INT_MAX)
-      return 0;
-    if(res < INT_MIN)
-      return 0;
-    return static_cast<int>(res);
+    return static_cast<int>(is_pos? -buffer: buffer);
   }
 };
